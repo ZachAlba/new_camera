@@ -78,14 +78,14 @@
                         ],
                         "ios": [
                             {
-                                "name": "NSCameraUsageDescription",
-                                "label": "Camera",
-                                "hint": "Describe why your app uses the camera."
-                            },
-                            {
                                 "name": "NSPhotoLibraryUsageDescription",
                                 "label": "Photos",
                                 "hint": "Describe why your app uses photos."
+                            },
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
                             }
                         ]
                     },
@@ -180,7 +180,10 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -226,7 +229,10 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -257,6 +263,11 @@
                 "e5620c8a-f92c-45f8-88f5-5f992710b3b8": {
                     "scope": "APP",
                     "name": "pic",
+                    "screenId": "efaba283-e369-408d-bda5-37fad17109cc"
+                },
+                "feb4e159-190a-4454-bf3a-c90294a2f91a": {
+                    "scope": "APP",
+                    "name": "voice",
                     "screenId": "efaba283-e369-408d-bda5-37fad17109cc"
                 }
             },
